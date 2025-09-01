@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-ai-agent",
+  "version": "1.0.0",
+  "description": "Sistema de agente IA modular para WhatsApp",
+  "main": "src/core/server.js",
+  "scripts": {
+    "start": "node src/core/server.js",
+    "dev": "nodemon src/core/server.js",
+    "test": "node test.js"
+  },
+  "keywords": ["whatsapp", "ai", "chatbot", "automation"],
+  "author": "AI Agent System",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "@google/generative-ai": "^0.11.0",
+    "@whiskeysockets/baileys": "^6.7.0",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.38.0",
+    "pino": "^8.19.0",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
